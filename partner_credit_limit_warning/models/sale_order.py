@@ -7,4 +7,4 @@ from odoo.tools import formatLang
 class SaleOrder(models.Model):
     _inherit = "sale.order"
 
-    my_custom_name = fields.Char(string="My name")
+    my_custom_name = fields.Char(string="Test name")
